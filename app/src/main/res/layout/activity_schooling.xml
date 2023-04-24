@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".Schooling">
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/a20"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:src="@drawable/wave2" />-->
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65dp"
+        android:hint="@string/a22"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/ans_a"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_1"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="60dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/a23"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/ans_b"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ans_a"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="60dp"
+        android:text="@string/a24"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/ans_c"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ans_b"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="60dp"
+        android:text="@string/a25"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/ans_d"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ans_c"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="60dp"
+        android:text="@string/a26"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/qnstv"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/a27"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ans_d"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="105dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/a28"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

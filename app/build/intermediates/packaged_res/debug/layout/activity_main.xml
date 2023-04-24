@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ab"
+    tools:context=".MainActivity">
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="@color/black"/>-->
+
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/a"-->
+<!--        android:textSize="35sp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="italic|bold"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+
+<!--        />-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/wave2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@color/black"
+        android:onClick="btnnext"
+        android:text="@string/b1"
+        android:textColor="@color/white"
+        android:paddingHorizontal="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="650dp"-->
+<!--        android:background="@color/black" />-->
+
+    <ImageView
+        android:layout_width="1440px"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="0dp"
+        android:scaleX="1.3"
+        android:src="@drawable/wave3" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="550dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="95dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/rejoice" />
+
+
+</RelativeLayout>

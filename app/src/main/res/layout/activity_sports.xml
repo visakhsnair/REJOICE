@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sports">
+
+    <TextView
+        android:id="@+id/oa_tv"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/a31"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:src="@drawable/wave2" />-->
+
+    <ImageView
+        android:id="@+id/sport1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/sportmotivate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sport1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/a34"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spin1"
+        android:layout_width="233dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="440dp"
+        android:textAlignment="center"
+
+        android:layout_marginEnd="90dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spin1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/dark_blue"
+        android:text="@string/a36" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spin1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/a35"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/a37" />
+
+
+
+</RelativeLayout>

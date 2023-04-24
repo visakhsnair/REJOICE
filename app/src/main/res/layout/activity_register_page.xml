@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".Registerpage">
+
+    <TextView
+        android:id="@+id/reg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/a9"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/reg_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/a11"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="256dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/reg_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@id/name_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/dob_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/name_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/a12"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dob_et"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/name_et"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@id/dob_tv"
+        android:background="@color/grey"
+        android:ems="11"
+        android:hint="@string/a17"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/Std_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/dob_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/a15"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/Std_et"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/dob_et"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toEndOf="@id/Std_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Add_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/Std_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/a14"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Add_et"
+        android:layout_width="267dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/Std_et"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@id/Std_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/no_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/Add_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/a13"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/no_et"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/Add_et"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@id/Std_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/user_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/no_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/a5"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_et"
+        android:layout_width="265dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/no_et"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@id/Std_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/pass_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/user_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/a6"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pass_et"
+        android:layout_width="262dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/user_et"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/Std_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/pass_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/a7"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mail_et"
+        android:layout_width="262dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/pass_et"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/Std_tv"
+        android:background="@color/grey"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail_et"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/a18"
+        android:textSize="20sp"
+        tools:ignore="OnClick,UsingOnClickInXml,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+</RelativeLayout>

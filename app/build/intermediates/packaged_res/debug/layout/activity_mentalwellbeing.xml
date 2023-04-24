@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".Mentalwellbeing">
+
+    <TextView
+        android:id="@+id/mwb_tv"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/a29"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:src="@drawable/wave2" />-->
+
+    <TextView
+        android:id="@+id/text_m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mwb_tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65dp"
+        android:textStyle="bold"
+        android:hint="@string/a22"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/ans_ma"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_m1"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="60dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/a23"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans_mb"
+        android:layout_below="@id/ans_ma"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:text="@string/a24"
+        android:textSize="15sp"
+        android:backgroundTint="@color/black"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans_mc"
+        android:layout_below="@id/ans_mb"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:text="@string/a25"
+        android:textSize="15sp"
+        android:backgroundTint="@color/black"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans_md"
+        android:layout_below="@id/ans_mc"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="60dp"
+        android:text="@string/a26"
+        android:textSize="15sp"
+        android:backgroundTint="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/qnsmtv"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_m1"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:text="@string/a27"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ans_md"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="105dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/a28"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

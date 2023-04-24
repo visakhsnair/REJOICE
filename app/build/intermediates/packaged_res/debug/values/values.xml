@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="dance">
+        <item>Choose</item>
+        <item>Bharatanatyam</item>
+        <item>Folk dance</item>
+        <item>Contemporary</item>
+        <item>Kathakali</item>
+        <item>Hip Hop</item>
+        <item>Carnatic Music</item>
+        <item>Pop Music</item>
+        <item>Folk Music</item>
+        <item>Ballet</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="games">
+        <item>Choose</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Kabaddi</item>
+        <item>Badminton</item>
+        <item>Hockey</item>
+        <item>Boxing</item>
+        <item>Chess</item>
+        <item>Tennis</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="pd">
+        <item>Choose</item>
+        <item>Extrovert</item>
+        <item>Introvert</item>
+        <item>Ambivert</item>
+        <item>Omnivert</item>
+    </string-array>
+    <color name="ab">#1A9AD3</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF000000</color>
+    <color name="dark_blue">#003E7F</color>
+    <color name="greenish_yellow">#AEEA00</color>
+    <color name="grey">#F6F6F6</color>
+    <color name="ic_launcher_background">#000000</color>
+    <color name="light_blue">#10CBE8</color>
+    <color name="pink">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#00C853</color>
+    <color name="violet">#5000ca</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FDD835</color>
+    <string name="a">Home</string>
+    <string name="a1">Welcome to REJOICE :)</string>
+    <string name="a10">Have to Register?</string>
+    <string name="a11">Name</string>
+    <string name="a12">DOB</string>
+    <string name="a13">Phone no</string>
+    <string name="a14">Address</string>
+    <string name="a15">Standard</string>
+    <string name="a16">School</string>
+    <string name="a17">dd/mm/yyyy</string>
+    <string name="a18">Register</string>
+    <string name="a19">Test Yourself!</string>
+    <string name="a2">Make your SCHOOL LIFE a memorable one!!!</string>
+    <string name="a20">Your Schooling</string>
+    <string name="a21">Question</string>
+    <string name="a22">Total questions</string>
+    <string name="a23">Ans a</string>
+    <string name="a24">Ans b</string>
+    <string name="a25">Ans c</string>
+    <string name="a26">Ans d</string>
+    <string name="a27">This will be the question</string>
+    <string name="a28">Submit</string>
+    <string name="a29">Mental Well-being</string>
+    <string name="a3">Are your ready for your test?</string>
+    <string name="a30">Other Activities</string>
+    <string name="a31">Sports</string>
+    <string name="a32">Dance &amp; Music</string>
+    <string name="a33">Personality Development</string>
+    <string name="a34">Select the Sports that you are interested in.</string>
+    <string name="a35">Know more about your favorite sport!</string>
+    <string name="a36">Articles</string>
+    <string name="a37">Video suggestions</string>
+    <string name="a38">Learn now!</string>
+    <string name="a39">Select the Style of dance and music that you are interested in.</string>
+    <string name="a4">Login Page</string>
+    <string name="a40">Know more about your favorite Style of Art form!</string>
+    <string name="a41">Personality Development</string>
+    <string name="a42">Select your personality</string>
+    <string name="a43">It\'s time to improve your personality!</string>
+    <string name="a44">Videos</string>
+    <string name="a45">Books</string>
+    <string name="a5">Username</string>
+    <string name="a6">Password</string>
+    <string name="a7">E-Mail</string>
+    <string name="a8">Login</string>
+    <string name="a9">Registration Page</string>
+    <string name="app_name">Rejoice</string>
+    <string name="b1">Let\'s Login</string>
+    <string name="image">image</string>
+    <style name="Theme.Rejoice" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

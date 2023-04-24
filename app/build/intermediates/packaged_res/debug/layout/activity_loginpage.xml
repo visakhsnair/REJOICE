@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context="Loginpage">
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/a4"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:text="@string/a5"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="268dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/login_tv"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@id/user_tv"
+        android:background="@color/grey"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:ignore="LabelFor,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/pass_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="@string/a6"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="261dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/user_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toEndOf="@id/pass_tv"
+        android:background="@color/grey"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:ignore="LabelFor,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mail_tv"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:text="@string/a7"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/pass_tv"
+        android:background="@color/grey"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="LabelFor,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginTop="65dp"-->
+<!--        android:src="@drawable/wave2" />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="75dp"
+        android:background="@color/dark_blue"
+        android:text="@string/a8"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/greenish_yellow"
+        android:text="@string/a10"
+        android:textColor="@color/white"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginTop="670dp"-->
+<!--        android:background="@color/black" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_marginTop="570dp"-->
+<!--        android:src="@drawable/wave3" />-->
+
+</RelativeLayout>
